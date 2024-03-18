@@ -1,0 +1,20 @@
+{% extends 'Layout/base.html' %}
+
+{%  block title %}
+    Ajout de DVD
+{% endblock %}
+
+{% block content %}
+
+<h1>Ajout d'un dvd</h1>
+
+<form action="" method="post" novalidate>
+    {% csrf_token %}
+    <table>
+        {{ creationdvd.as_table }}
+    </table>
+
+    <input type="submit" value="Envoyer"></input>
+</form>
+
+{% endblock %}

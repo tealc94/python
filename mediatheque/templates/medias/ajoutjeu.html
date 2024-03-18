@@ -1,0 +1,20 @@
+{% extends 'Layout/base.html' %}
+
+{%  block title %}
+    Ajout de Jeu de plateau
+{% endblock %}
+
+{% block content %}
+
+<h1>Ajout de jeu de plateau</h1>
+
+<form action="" method="post" novalidate>
+    {% csrf_token %}
+    <table>
+        {{ creationjeu.as_table }}
+    </table>
+
+    <input type="submit" value="Envoyer"></input>
+</form>
+
+{% endblock %}

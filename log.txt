@@ -1,0 +1,226 @@
+18-Mar-24 21:26:35 - INFO - Accès à la liste des emprunteurs
+18-Mar-24 21:26:37 - INFO - Suppression de l'emprunteur: dgdjg
+18-Mar-24 21:26:41 - INFO - Suppression de l'emprunteur: toto
+18-Mar-24 21:26:51 - INFO - Ancienne nom de l'emprunteur: Josette
+18-Mar-24 21:26:51 - INFO - Mise à jour de l'emprunteur: Martin
+18-Mar-24 21:26:58 - INFO - Ancienne nom de l'emprunteur: Jean-Yves
+18-Mar-24 21:26:58 - INFO - Mise à jour de l'emprunteur: André
+18-Mar-24 21:27:09 - INFO - Ancienne nom de l'emprunteur: DE ANDRADE
+18-Mar-24 21:27:09 - INFO - Mise à jour de l'emprunteur: Joseph
+18-Mar-24 21:27:24 - INFO - Accès à la liste des emprunteurs
+18-Mar-24 21:27:33 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à Martin
+18-Mar-24 21:27:33 - INFO - DVD Avatar : La voie de l'eau prêté à Martin
+18-Mar-24 21:27:33 - INFO - CD Legend prêté à Martin
+18-Mar-24 21:27:52 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à Martin
+18-Mar-24 21:27:52 - INFO - DVD Avatar : La voie de l'eau prêté à Martin
+18-Mar-24 21:27:52 - INFO - CD Legend prêté à Martin
+18-Mar-24 21:27:52 - INFO - Jeu Pandemic prêté à Martin
+18-Mar-24 21:27:55 - INFO - Accès à la liste des emprunteurs
+18-Mar-24 21:28:16 - INFO - Accès à la liste des emprunteurs
+18-Mar-24 21:28:25 - INFO - Accès à la liste des emprunteurs
+18-Mar-24 21:30:35 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+18-Mar-24 21:30:51 - INFO - Livre Holly prêté à André
+18-Mar-24 21:30:51 - INFO - DVD Oppenheimer prêté à André
+18-Mar-24 21:30:51 - INFO - CD Third World Child prêté à André
+18-Mar-24 21:30:51 - INFO - Jeu Pandemic prêté à André
+18-Mar-24 21:30:51 - INFO - Jeu Mr. Jack London prêté à André
+18-Mar-24 21:30:51 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 170, in selectionMedias
+    return  render(request, '', {'form': form, 'total_medias': total_medias})
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loaders\base.py", line 23, in get_template
+    contents = self.get_contents(origin)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loaders\cached.py", line 26, in get_contents
+    return origin.loader.get_contents(origin)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loaders\filesystem.py", line 22, in get_contents
+    with open(origin.name, encoding=self.engine.file_charset) as fp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Tealc972\\Desktop\\Devoir\\Devoir 11 - Python\\projet_mediatheque\\Lib\\site-packages\\django\\contrib\\admin\\templates'
+18-Mar-24 21:31:20 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+18-Mar-24 21:31:22 - INFO - Livre Holly prêté à André
+18-Mar-24 21:31:22 - INFO - DVD Oppenheimer prêté à André
+18-Mar-24 21:31:22 - INFO - CD Third World Child prêté à André
+18-Mar-24 21:31:22 - INFO - Jeu Pandemic prêté à André
+18-Mar-24 21:31:22 - INFO - Jeu Mr. Jack London prêté à André
+18-Mar-24 21:31:22 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 170, in selectionMedias
+    return  render(request, 'empruntmedias/', {'form': form, 'total_medias': total_medias})
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loaders\base.py", line 23, in get_template
+    contents = self.get_contents(origin)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loaders\cached.py", line 26, in get_contents
+    return origin.loader.get_contents(origin)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loaders\filesystem.py", line 22, in get_contents
+    with open(origin.name, encoding=self.engine.file_charset) as fp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Tealc972\\Desktop\\Devoir\\Devoir 11 - Python\\projet_mediatheque\\mediatheque\\mediatheque\\templates\\empruntmedias'
+18-Mar-24 21:31:35 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+18-Mar-24 21:31:36 - INFO - Accès à la liste des emprunteurs
+18-Mar-24 21:33:48 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+18-Mar-24 21:33:51 - INFO - Livre Holly prêté à André
+18-Mar-24 21:33:51 - INFO - DVD Oppenheimer prêté à André
+18-Mar-24 21:33:51 - INFO - CD Third World Child prêté à André
+18-Mar-24 21:33:51 - INFO - Jeu Pandemic prêté à André
+18-Mar-24 21:33:51 - INFO - Jeu Mr. Jack London prêté à André
+18-Mar-24 21:33:51 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 170, in selectionMedias
+    return  render(request, 'home', {'form': form, 'total_medias': total_medias})
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home
+18-Mar-24 21:37:02 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\urls.py changed, reloading.
+18-Mar-24 21:37:04 - INFO - Livre Holly prêté à André
+18-Mar-24 21:37:04 - INFO - DVD Oppenheimer prêté à André
+18-Mar-24 21:37:04 - INFO - CD Third World Child prêté à André
+18-Mar-24 21:37:04 - INFO - Jeu Pandemic prêté à André
+18-Mar-24 21:37:04 - INFO - Jeu Mr. Jack London prêté à André
+18-Mar-24 21:37:04 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 170, in selectionMedias
+    return  render(request, 'emprunteurs', {'form': form, 'total_medias': total_medias})
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loaders\base.py", line 23, in get_template
+    contents = self.get_contents(origin)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loaders\cached.py", line 26, in get_contents
+    return origin.loader.get_contents(origin)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\template\loaders\filesystem.py", line 22, in get_contents
+    with open(origin.name, encoding=self.engine.file_charset) as fp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Tealc972\\Desktop\\Devoir\\Devoir 11 - Python\\projet_mediatheque\\mediatheque\\mediatheque\\templates\\emprunteurs'
+18-Mar-24 21:37:45 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+18-Mar-24 21:37:47 - INFO - Accès à la liste des emprunteurs
+18-Mar-24 21:37:50 - INFO - Livre Holly prêté à André
+18-Mar-24 21:37:50 - INFO - DVD Oppenheimer prêté à André
+18-Mar-24 21:37:50 - INFO - CD Third World Child prêté à André
+18-Mar-24 21:37:50 - INFO - Jeu Pandemic prêté à André
+18-Mar-24 21:37:50 - INFO - Jeu Mr. Jack London prêté à André
+18-Mar-24 21:37:54 - INFO - Accès à la liste des emprunteurs
+18-Mar-24 21:38:24 - INFO - Livre Holly prêté à André
+18-Mar-24 21:38:24 - INFO - DVD Oppenheimer prêté à André
+18-Mar-24 21:38:24 - INFO - CD Third World Child prêté à André
+18-Mar-24 21:38:24 - INFO - Jeu Pandemic prêté à André
+18-Mar-24 21:38:24 - INFO - Jeu Mr. Jack London prêté à André
+18-Mar-24 21:38:25 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+18-Mar-24 21:38:28 - INFO - Accès à la liste des emprunteurs
+18-Mar-24 21:38:32 - INFO - Livre Holly prêté à André
+18-Mar-24 21:38:32 - INFO - DVD Oppenheimer prêté à André
+18-Mar-24 21:38:32 - INFO - CD Third World Child prêté à André
+18-Mar-24 21:38:32 - INFO - Jeu Pandemic prêté à André
+18-Mar-24 21:38:32 - INFO - Jeu Mr. Jack London prêté à André
+18-Mar-24 21:38:35 - INFO - Accès à la liste des emprunteurs
+18-Mar-24 21:38:46 - INFO - Livre Le livre des Baltimore prêté à Joseph
+18-Mar-24 21:38:46 - INFO - DVD Astérix et Obélix : Mission Cléopâtre prêté à Joseph
+18-Mar-24 21:38:46 - INFO - CD Adele 21 prêté à Joseph
+18-Mar-24 21:38:46 - INFO - Jeu Escape Room Le Jeu - Le Voyage Dans Le Temps prêté à Joseph
+18-Mar-24 21:38:46 - INFO - Jeu Péril En Haute Mer - Cluedo Escape Game prêté à Joseph
+18-Mar-24 21:38:59 - INFO - Accès à la liste des emprunteurs
+18-Mar-24 21:39:09 - INFO - Livre Harry Potter, tome 3 : Harry Potter et le prisonnier d'Azkaban prêté à Martin
+18-Mar-24 21:39:09 - INFO - DVD Avatar : La voie de l'eau prêté à Martin
+18-Mar-24 21:39:09 - INFO - CD Third World Child prêté à Martin
+18-Mar-24 21:39:09 - INFO - Jeu Mr. Jack London prêté à Martin
+18-Mar-24 21:39:09 - INFO - Jeu Les aventuriers du rail Europe prêté à Martin
+18-Mar-24 21:39:09 - INFO - Jeu Escape Room Le Jeu - Le Voyage Dans Le Temps prêté à Martin
+18-Mar-24 21:39:10 - INFO - Accès à la liste des emprunteurs

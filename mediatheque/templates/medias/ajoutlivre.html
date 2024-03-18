@@ -1,0 +1,20 @@
+{% extends 'Layout/base.html' %}
+
+{%  block title %}
+    Ajout de livre
+{% endblock %}
+
+{% block content %}
+
+<h1>Ajout d'un livre</h1>
+
+<form action="" method="post" novalidate>
+    {% csrf_token %}
+    <table>
+        {{ creationlivre.as_table }}
+    </table>
+
+    <input type="submit" value="Envoyer"></input>
+</form>
+
+{% endblock %}

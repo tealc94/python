@@ -1,0 +1,19 @@
+{% extends 'Layout/base.html' %}
+
+{%  block title %}
+    Liste des membres
+{% endblock %}
+
+{% block content %}
+<h1>Médiathèque "Notre livre, notre média"</h1>
+<h2>Liste des membres</h2>
+<ul>
+    {% for emprunteur in emprunteurs %}
+    <li>Nom : {{ emprunteur.name }} -
+        <a href="{% url 'updateemprunteur' emprunteur.id_emprunteur %}">MAJ</a> |
+        <a href="{% url 'deleteemprunteur' emprunteur.id_emprunteur %}">SUPP</a> |
+        <a href="{% url 'selectionmedias' emprunteur.id_emprunteur %}">PRET</a></li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'Layout/base.html' %}
+
+{%  block title %}
+    Liste des médias
+{% endblock %}
+
+{% block content %}
+
+<h1>Liste des médias</h1>
+<h2>Liste des livres</h2>
+<ul>
+    {% for livre in livres %}
+    <li>Titre : {{ livre.name }} - Auteur : {{ livre.auteur }}</li>
+    {% endfor %}
+</ul>
+
+<h2>Liste des dvd</h2>
+<ul>
+    {% for dvd in dvds %}
+    <li>Titre : {{ dvd.name }} - Réalisateur : {{ dvd.realisateur }}</li>
+    {% endfor %}
+</ul>
+
+<h2>Liste des cd</h2>
+<ul>
+    {% for cd in cds %}
+    <li>Titre : {{ cd.name }} - Artiste : {{ cd.artiste }}</li>
+    {% endfor %}
+</ul>
+
+<h2>Liste des jeux de plateau</h2>
+<ul>
+    {% for jeu in jeux %}
+    <li>Titre : {{ jeu.name }} - Créateur : {{ jeu.createur }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

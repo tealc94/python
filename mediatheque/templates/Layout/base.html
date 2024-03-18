@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="/">Accueil</a> |
+        <a href="{% url 'ajoutemprunteur' %}">Ajout emprunteur</a> |
+        <a href="{% url 'listemedias' %}">Liste des médias</a> |
+        <a href="{% url 'ajoutlivre' %}">Ajout de livre</a> |
+        <a href="{% url 'ajoutdvd' %}">Ajout de dvd</a> |
+        <a href="{% url 'ajoutcd' %}">Ajout de cd</a> |
+        <a href="{% url 'ajoutjeu' %}">Ajout de jeu de plateau</a>
+    </nav>
+</header>
+{% block content %}
+{% endblock%}
+</body>
+</html>

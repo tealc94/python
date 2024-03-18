@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Membre médithèque</title>
+</head>
+<body>
+<h1>Médiathèque "Notre livre, notre média"</h1>
+<h2>Près en court</h2>
+<ul>
+    {% for membre in emprunteurs_et_livres %}
+    <li>Nom de l'emprunteur : {{ membre.emprunteur.name }}</li>
+    <span>Livre emprunté :</span>
+    <ol>
+        {% for livre in membre.livres_empruntes %}
+            <li>{{ livre.name }}</li>
+        {% endfor %}
+    </ol>
+    <br>
+    <span>Dvd emprunté :</span>
+    <ol>
+        {% for dvd in membre.dvds_empruntes %}
+            <li>{{ dvd.name }}</li>
+        {% endfor %}
+    </ol>
+    <br>
+    <span>Cd emprunté :</span>
+    <ol>
+        {% for cd in membre.cds_empruntes %}
+            <li>{{ cd.name }}</li>
+        {% endfor %}
+    </ol>
+    <br>
+    <span>Jeu emprunté :</span>
+    <ol>
+        {% for jeu in membre.jeux_empruntes %}
+            <li>{{ jeu.name }}</li>
+        {% endfor %}
+    </ol>
+    <br>
+    {% endfor %}
+</ul>
+
+</body>
+</html>

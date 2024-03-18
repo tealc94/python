@@ -1,0 +1,18 @@
+{% extends 'Layout/base.html' %}
+
+{%  block title %}
+    Pret des médias
+{% endblock %}
+
+{% block content %}
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Soumettre</button>
+</form>
+{% if message %}
+    <p>**** ATTENTION : {{ message }} ****</p>
+{% endif %}
+
+{% endblock %}
