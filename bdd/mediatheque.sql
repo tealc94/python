@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : lun. 18 mars 2024 à 21:28
+-- Généré le : dim. 24 mars 2024 à 17:48
 -- Version du serveur : 8.2.0
 -- Version de PHP : 8.2.13
 
@@ -382,7 +382,7 @@ CREATE TABLE IF NOT EXISTS `mediatheque_emprunteur` (
   `name` varchar(100) NOT NULL,
   `bloque` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`id_emprunteur`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `mediatheque_emprunteur`
@@ -409,14 +409,14 @@ CREATE TABLE IF NOT EXISTS `mediatheque_emprunteur_cd` (
   PRIMARY KEY (`id`),
   KEY `mediatheque_emprunteur_cd_cd_id_d38959c8` (`cd_id`),
   KEY `mediatheque_emprunteur_cd_emprunteurs_id_67bb738a` (`emprunteurs_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=122 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=140 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `mediatheque_emprunteur_cd`
 --
 
 INSERT INTO `mediatheque_emprunteur_cd` (`id`, `dateEmprunt`, `disponible`, `cd_id`, `emprunteurs_id`) VALUES
-(121, '2024-03-18', 1, 2, 1),
+(125, '2024-03-21', 1, 2, 1),
 (120, '2024-03-18', 1, 3, 5),
 (119, '2024-03-18', 1, 2, 2);
 
@@ -436,14 +436,14 @@ CREATE TABLE IF NOT EXISTS `mediatheque_emprunteur_dvd` (
   PRIMARY KEY (`id`),
   KEY `mediatheque_emprunteur_dvd_dvd_id_f71c457d` (`dvd_id`),
   KEY `mediatheque_emprunteur_dvd_emprunteurs_id_0a368473` (`emprunteurs_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=144 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=165 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `mediatheque_emprunteur_dvd`
 --
 
 INSERT INTO `mediatheque_emprunteur_dvd` (`id`, `dateEmprunt`, `disponible`, `dvd_id`, `emprunteurs_id`) VALUES
-(143, '2024-03-18', 1, 1, 1),
+(147, '2024-03-21', 1, 1, 1),
 (142, '2024-03-18', 1, 3, 5),
 (141, '2024-03-18', 1, 2, 2);
 
@@ -461,7 +461,7 @@ CREATE TABLE IF NOT EXISTS `mediatheque_emprunteur_jeu` (
   PRIMARY KEY (`id`),
   KEY `mediatheque_emprunteur_jeu_emprunteurs_id_2927b728` (`emprunteurs_id`),
   KEY `mediatheque_emprunteur_jeu_jeu_id_a3367682` (`jeu_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=66 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `mediatheque_emprunteur_jeu`
@@ -472,9 +472,9 @@ INSERT INTO `mediatheque_emprunteur_jeu` (`id`, `emprunteurs_id`, `jeu_id`) VALU
 (29, 2, 2),
 (31, 5, 5),
 (28, 2, 1),
-(32, 1, 2),
-(33, 1, 3),
-(34, 1, 4);
+(46, 1, 4),
+(45, 1, 3),
+(44, 1, 2);
 
 -- --------------------------------------------------------
 
@@ -492,16 +492,16 @@ CREATE TABLE IF NOT EXISTS `mediatheque_emprunteur_livre` (
   PRIMARY KEY (`id`),
   KEY `mediatheque_emprunteur_livre_emprunteurs_id_ce01addf` (`emprunteurs_id`),
   KEY `mediatheque_emprunteur_livre_livre_id_ec556d2c` (`livre_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=245 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=273 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `mediatheque_emprunteur_livre`
 --
 
 INSERT INTO `mediatheque_emprunteur_livre` (`id`, `dateEmprunt`, `disponible`, `emprunteurs_id`, `livre_id`) VALUES
-(244, '2024-03-18', 1, 1, 3),
-(243, '2024-03-18', 1, 5, 11),
-(242, '2024-03-18', 1, 2, 5);
+(248, '2024-03-21', 1, 1, 3),
+(243, '2024-03-12', 1, 5, 11),
+(242, '2024-02-28', 1, 2, 5);
 
 -- --------------------------------------------------------
 
