@@ -12,6 +12,9 @@
     {% for livre in livres %}
     <li>Titre : {{ livre.name }} - Auteur : {{ livre.auteur }}</li>
     {% endfor %}
+    {% for date in dateEmprunteur %}
+    <li>{{ dateEmprunteur.dateEmprunt }}</li>
+    {% endfor %}
 </ul>
 
 <h2>Liste des dvd</h2>

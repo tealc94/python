@@ -13,21 +13,33 @@
     <span>Livre emprunté :</span>
     <ol>
         {% for livre in membre.livres_empruntes %}
-            <li>{{ livre.name }}</li>
+            {% for livre_name, date_emprunt in membre.dates_emprunt_livres.items %}
+                {% if livre.name == livre_name %}
+                    <li>{{ livre.name }} - Emprunté le {{ date_emprunt }}</li>
+                {% endif %}
+            {% endfor %}
         {% endfor %}
     </ol>
     <br>
     <span>Dvd emprunté :</span>
     <ol>
         {% for dvd in membre.dvds_empruntes %}
-            <li>{{ dvd.name }}</li>
+            {% for dvd_name, date_emprunt in membre.dates_emprunt_dvds.items %}
+                {% if dvd.name == dvd_name %}
+                    <li>{{ dvd.name }} - Emprunté le {{ date_emprunt }}</li>
+                {% endif %}
+            {% endfor %}
         {% endfor %}
     </ol>
     <br>
     <span>Cd emprunté :</span>
     <ol>
         {% for cd in membre.cds_empruntes %}
-            <li>{{ cd.name }}</li>
+            {% for cd_name, date_emprunt in membre.dates_emprunt_cds.items %}
+                {% if cd.name == cd_name %}
+                    <li>{{ cd.name }} - Emprunté le {{ date_emprunt }}</li>
+                {% endif %}
+            {% endfor %}
         {% endfor %}
     </ol>
     <br>

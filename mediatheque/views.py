@@ -58,7 +58,7 @@ def listeMedia(request):
     dvds = Dvd.objects.all()
     cds = Cd.objects.all()
     jeux = JeuDePlateau.objects.all()
-    return render(request, 'medias/medias.html', {'livres': livres, 'dvds': dvds, 'cds': cds, 'jeux': jeux})
+    return render(request, 'medias/medias.html', {'livres': livres, 'dvds': dvds, 'cds': cds, 'jeux': jeux })
 
 def ajoutLivre(request):
     if request.method == 'POST':
@@ -123,6 +123,7 @@ def selectionMedias(request, emprunteurs_id):
     cds_emprunteur = Emprunteur_Cd.objects.filter(emprunteurs=emprunteur)
     jeux_emprunteur = Emprunteur_Jeu.objects.filter(emprunteurs=emprunteur)
     message = None
+    message_date = None
     if request.method == 'POST':
         form = SelectionMediasForm(request.POST)
         if form.is_valid():
@@ -173,5 +174,5 @@ def selectionMedias(request, emprunteurs_id):
                                             'dvds': [dvd.dvd for dvd in dvds_emprunteur],
                                             'cds': [cd.cd for cd in cds_emprunteur],
                                             'jeux': [jeu.jeu for jeu in jeux_emprunteur]})
-    return render(request, 'empruntmedias/selectionmedias.html', {'form': form, 'message': message})
+    return render(request, 'empruntmedias/selectionmedias.html', {'form': form, 'message': message, 'message_date': message_date})
 
