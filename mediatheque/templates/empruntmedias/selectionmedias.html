@@ -15,8 +15,13 @@
     <p>**** ATTENTION : {{ message }} ****</p>
 {% endif %}
 
-{% if message_date %}
-    <p>{{ message_date }}</p>
+{% if message_emprunt_livre or message_emprunt_dvd or message_emprunt_cd or message_emprunt_jeu %}
+    <p>
+        {% if message_emprunt_livre %} {{ message_emprunt_livre }} {% endif %} <br>
+        {% if message_emprunt_dvd %} {{ message_emprunt_dvd }} {% endif %} <br>
+        {% if message_emprunt_cd %} {{ message_emprunt_cd }} {% endif %} <br>
+        {% if message_emprunt_jeu %} {{ message_emprunt_jeu }} {% endif %}
+    </p>
 {% endif %}
 
 {% endblock %}
