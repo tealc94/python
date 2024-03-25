@@ -123,7 +123,10 @@ def selectionMedias(request, emprunteurs_id):
     cds_emprunteur = Emprunteur_Cd.objects.filter(emprunteurs=emprunteur)
     jeux_emprunteur = Emprunteur_Jeu.objects.filter(emprunteurs=emprunteur)
     message = None
-    message_date = None
+    message_emprunt_livre = None
+    message_emprunt_dvd = None
+    message_emprunt_cd = None
+    message_emprunt_jeu = None
     if request.method == 'POST':
         form = SelectionMediasForm(request.POST)
         if form.is_valid():
@@ -133,6 +136,7 @@ def selectionMedias(request, emprunteurs_id):
             jeux_selectionnes = form.cleaned_data['jeux']
             total_medias = (len(livres_selectionnes)+len(dvds_selectionnes)+len(cds_selectionnes))
 
+            #lors de la remise du médias, mise à jour dans la table
             livres_empruntes = Emprunteur_Livre.objects.filter(emprunteurs=emprunteur)
             for livre_emprunte in livres_empruntes:
                 if livre_emprunte not in livres_selectionnes:
@@ -153,26 +157,67 @@ def selectionMedias(request, emprunteurs_id):
                 if jeu_emprunte not in jeux_selectionnes:
                     jeu_emprunte.delete()
 
+            #vérification si les médias sont déjà emprunté
+            livres_a_emprunter = []
+            for livre in livres_selectionnes:
+                livre_deja_emprunte = Emprunteur_Livre.objects.filter(livre=livre, disponible=True).exists()
+                if not livre_deja_emprunte:
+                    livres_a_emprunter.append(livre)
+                else:
+                    message_emprunt_livre = f'Le livre "{livre.name}" est déjà emprunté par une autre membre.'
+
+            dvds_a_emprunter = []
+            for dvd in dvds_selectionnes:
+                dvd_deja_emprunte = Emprunteur_Dvd.objects.filter(dvd=dvd, disponible=True).exists()
+                if not dvd_deja_emprunte:
+                    dvds_a_emprunter.append(dvd)
+                else:
+                    message_emprunt_dvd = f'Le dvd "{dvd.name}" est déjà emprunté par une autre membre.'
+
+            cds_a_emprunter = []
+            for cd in cds_selectionnes:
+                cd_deja_emprunte = Emprunteur_Cd.objects.filter(cd=cd, disponible=True).exists()
+                if not cd_deja_emprunte:
+                    cds_a_emprunter.append(cd)
+                else:
+                    message_emprunt_cd = f'Le cd "{cd.name}" est déjà emprunté par un autre membre.'
+
+            jeux_a_emprunter = []
+            for jeu in jeux_selectionnes:
+                jeu_deja_emprunte = Emprunteur_Jeu.objects.filter(jeu=jeu, disponible=True).exists()
+                print("JEU ", jeu_deja_emprunte)
+                if not jeu_deja_emprunte:
+                    jeux_a_emprunter.append(jeu)
+                else:
+                    message_emprunt_jeu = f'Le jeu "{jeu.name}" est déjà emprunté par un autre membre.'
+
+            #vérification si le nbre de médias a bien été emprunté
+            #si c'est le cas il est enregistré dans la base de données
             if total_medias > 3:
                 message = 'Vous ne pouvez pas emprunter plus de 3 articles'
             else:
-                for livre in livres_selectionnes:
+                for livre in livres_a_emprunter:
                     Emprunteur_Livre.objects.create(emprunteurs=emprunteur, livre=livre, disponible=True)
                     logger.info("Livre %s prêté à %s", livre.name, emprunteur.name)
-                for dvd in dvds_selectionnes:
+                for dvd in dvds_a_emprunter:
                     Emprunteur_Dvd.objects.create(emprunteurs=emprunteur, dvd=dvd, disponible=True)
                     logger.info("DVD %s prêté à %s", dvd.name, emprunteur.name)
-                for cd in cds_selectionnes:
+                for cd in cds_a_emprunter:
                     Emprunteur_Cd.objects.create(emprunteurs=emprunteur, cd=cd, disponible=True)
                     logger.info("CD %s prêté à %s", cd.name, emprunteur.name)
-                for jeu in jeux_selectionnes:
-                    Emprunteur_Jeu.objects.create(emprunteurs=emprunteur, jeu=jeu)
+                for jeu in jeux_a_emprunter:
+                    Emprunteur_Jeu.objects.create(emprunteurs=emprunteur, jeu=jeu, disponible=True)
                     logger.info("Jeu %s prêté à %s", jeu.name, emprunteur.name)
-                return  render(request, 'empruntmedias/selectionmedias.html', {'form': form, 'total_medias': total_medias})
+                return  render(request, 'empruntmedias/selectionmedias.html', {'form': form,
+                                                                               'total_medias': total_medias,
+                                                                               'message_emprunt_livre': message_emprunt_livre,
+                                                                               'message_emprunt_dvd': message_emprunt_dvd,
+                                                                               'message_emprunt_cd': message_emprunt_cd,
+                                                                               'message_emprunt_jeu': message_emprunt_jeu})
     else:
         form = SelectionMediasForm(initial={'livres': [livre.livre for livre in livres_empruntes],
                                             'dvds': [dvd.dvd for dvd in dvds_emprunteur],
                                             'cds': [cd.cd for cd in cds_emprunteur],
                                             'jeux': [jeu.jeu for jeu in jeux_emprunteur]})
-    return render(request, 'empruntmedias/selectionmedias.html', {'form': form, 'message': message, 'message_date': message_date})
+    return render(request, 'empruntmedias/selectionmedias.html', {'form': form, 'message': message})
 

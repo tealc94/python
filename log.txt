@@ -2653,3 +2653,474 @@ UnboundLocalError: cannot access local variable 'dates_emprunt' where it is not 
 24-Mar-24 18:48:21 - INFO - Accès à la liste des emprunteurs
 24-Mar-24 18:48:22 - WARNING - Not Found: /favicon.ico
 24-Mar-24 18:48:29 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 19:56:21 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 19:56:23 - WARNING - Not Found: /favicon.ico
+25-Mar-24 19:58:08 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 19:58:13 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 19:58:26 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:14:31 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:14:34 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:14:46 - INFO - DVD Avatar : La voie de l'eau prêté à Martin
+25-Mar-24 20:14:46 - INFO - CD Legend prêté à Martin
+25-Mar-24 20:14:46 - INFO - Jeu Pandemic prêté à Martin
+25-Mar-24 20:14:49 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:16:22 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:16:26 - INFO - DVD Avatar : La voie de l'eau prêté à Martin
+25-Mar-24 20:16:26 - INFO - CD Legend prêté à Martin
+25-Mar-24 20:16:26 - INFO - Jeu Pandemic prêté à Martin
+25-Mar-24 20:16:29 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:21:30 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:21:36 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:21:43 - INFO - DVD Avatar : La voie de l'eau prêté à Martin
+25-Mar-24 20:21:43 - INFO - CD Legend prêté à Martin
+25-Mar-24 20:21:43 - INFO - Jeu Pandemic prêté à Martin
+25-Mar-24 20:21:46 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:23:18 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:23:20 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:25:08 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:25:10 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:26:12 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:26:16 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:27:23 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:27:24 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:27:28 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:28:26 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:28:28 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:28:35 - INFO - DVD Avatar : La voie de l'eau prêté à Martin
+25-Mar-24 20:28:35 - INFO - CD Legend prêté à Martin
+25-Mar-24 20:28:35 - INFO - Jeu Pandemic prêté à Martin
+25-Mar-24 20:28:41 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:33:01 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:33:08 - INFO - Livre Harry Potter, tome 1 : Harry Potter à l'école des sorciers prêté à Martin
+25-Mar-24 20:33:08 - INFO - DVD Avatar : La voie de l'eau prêté à Martin
+25-Mar-24 20:33:08 - INFO - CD Legend prêté à Martin
+25-Mar-24 20:33:08 - INFO - Jeu Pandemic prêté à Martin
+25-Mar-24 20:33:11 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:44:32 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:44:50 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:44:53 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:45:05 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:45:20 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:45:45 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:46:08 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:46:10 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:46:24 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:49:48 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:50:02 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:50:03 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:51:35 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:51:44 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:59:22 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 20:59:24 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:59:26 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:59:30 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 20:59:43 - INFO - Livre Harry Potter, tome 1 : Harry Potter à l'école des sorciers prêté à André
+25-Mar-24 20:59:43 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 20:59:43 - INFO - CD Third World Child prêté à André
+25-Mar-24 20:59:43 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 20:59:48 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:00:02 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à André
+25-Mar-24 21:00:02 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:00:02 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:00:02 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:00:04 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:03:36 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:03:39 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:03:46 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:03:52 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:03:52 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:03:52 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:03:57 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:04:05 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à André
+25-Mar-24 21:04:05 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:04:05 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:04:05 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:04:07 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:04:18 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:04:18 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:04:18 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:04:21 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:04:29 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:04:29 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:04:29 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:07:42 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:07:45 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:07:48 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:07:53 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:07:53 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:07:53 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:11:18 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:11:20 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:11:22 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 186, in selectionMedias
+    return render(request, 'empruntmedias/selectionmedias.html', {'form': form, 'message': message, 'message_emprunt': message_emprunt, 'message_date': message_date})
+                                                                                                                       ^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'message_emprunt' where it is not associated with a value
+25-Mar-24 21:11:40 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:11:44 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:11:49 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:11:49 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:11:49 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:12:50 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:18:01 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:18:05 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:18:10 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:18:21 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:18:25 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:18:34 - INFO - Livre Harry Potter, tome 1 : Harry Potter à l'école des sorciers prêté à Martin
+25-Mar-24 21:18:34 - INFO - DVD Avatar : La voie de l'eau prêté à Martin
+25-Mar-24 21:18:34 - INFO - CD Legend prêté à Martin
+25-Mar-24 21:18:34 - INFO - Jeu Pandemic prêté à Martin
+25-Mar-24 21:18:36 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:19:02 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:19:09 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:19:09 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:19:09 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:19:51 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:19:52 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:22:48 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:22:56 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:22:56 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:22:56 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:23:05 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:23:12 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:23:12 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:23:12 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:23:17 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:23:17 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:23:17 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:23:23 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:23:27 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:23:28 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:23:38 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:23:53 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:23:53 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:23:53 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:28:06 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:28:20 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:28:20 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:28:20 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:28:31 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:28:31 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:28:31 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:28:46 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:29:16 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:29:16 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:29:16 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:29:34 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:29:34 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:29:34 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:30:06 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:30:18 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:30:31 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:30:31 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:30:31 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:32:33 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:32:34 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:32:36 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 182, in selectionMedias
+    print("LE MESSAGE 2 ", message_emprunt)
+                           ^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'message_emprunt' where it is not associated with a value
+25-Mar-24 21:33:01 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:33:02 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:33:13 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:33:13 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:33:13 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:40:15 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:40:15 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:40:32 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:40:32 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:40:32 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:41:34 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:41:34 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:41:48 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:41:48 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:41:48 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:45:14 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:45:16 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:45:24 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:45:24 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:45:24 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:45:58 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:45:59 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:47:00 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:47:43 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:47:45 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:47:52 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:47:52 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:47:52 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:52:46 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:52:47 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 21:52:51 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 21:52:58 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 21:52:58 - INFO - CD Third World Child prêté à André
+25-Mar-24 21:52:58 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 21:53:08 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:00:32 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:00:32 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 22:00:42 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:00:49 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 177, in selectionMedias
+    if not cd_deja_emprunte:
+           ^^^^^^^^^^^^^^^^
+NameError: name 'cd_deja_emprunte' is not defined. Did you mean: 'dvd_dejà_emprunte'?
+25-Mar-24 22:02:17 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 22:02:18 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:02:23 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:02:30 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:02:33 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:02:36 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:02:48 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 169, in selectionMedias
+    if not dvd_deja_emprunte:
+           ^^^^^^^^^^^^^^^^^
+NameError: name 'dvd_deja_emprunte' is not defined. Did you mean: 'dvd_dejà_emprunte'?
+25-Mar-24 22:03:32 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 22:03:33 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:03:35 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:04:01 - INFO - DVD Astérix et Obélix : Mission Cléopâtre prêté à André
+25-Mar-24 22:04:01 - INFO - CD Third World Child prêté à André
+25-Mar-24 22:04:01 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 22:04:10 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à André
+25-Mar-24 22:04:10 - INFO - CD Third World Child prêté à André
+25-Mar-24 22:04:10 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 22:04:20 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à André
+25-Mar-24 22:04:20 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 22:04:20 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 22:04:33 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à André
+25-Mar-24 22:04:33 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 22:04:42 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:04:47 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:04:51 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:05:04 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à André
+25-Mar-24 22:05:04 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 22:10:25 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 22:14:09 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:14:12 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:14:19 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à André
+25-Mar-24 22:14:19 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 22:14:30 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:14:46 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:14:59 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à André
+25-Mar-24 22:14:59 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 22:14:59 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 22:15:14 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 22:16:44 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:16:53 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 22:23:50 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 22:23:51 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:23:53 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:24:05 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 186, in selectionMedias
+    jeu_deja_emprunte = Emprunteur.Jeu.objects.filter(jeu=jeu, disponible=True).exists()
+                        ^^^^^^^^^^^^^^
+AttributeError: type object 'Emprunteur' has no attribute 'Jeu'
+25-Mar-24 22:24:36 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 22:24:40 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:24:49 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 186, in selectionMedias
+    jeu_deja_emprunte = Emprunteur_Jeu.objects.filter(jeu=jeu, disponible=True).exists()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'disponible' into field. Choices are: emprunteurs, emprunteurs_id, id, jeu, jeu_id
+25-Mar-24 22:25:24 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 22:25:25 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:25:27 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:25:49 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 186, in selectionMedias
+    jeu_deja_emprunte = Emprunteur_Jeu.objects.filter(jeu=jeu, disponible=True).exists()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'disponible' into field. Choices are: emprunteurs, emprunteurs_id, id, jeu, jeu_id
+25-Mar-24 22:25:57 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:25:58 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:26:06 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 214, in selectionMedias
+    'message_emprunt_jeu': message_emprunt_jeu})
+                           ^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'message_emprunt_jeu' where it is not associated with a value
+25-Mar-24 22:26:27 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 22:26:28 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:26:38 - ERROR - Internal Server Error: /selectionmedias/2
+Traceback (most recent call last):
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py", line 187, in selectionMedias
+    jeu_deja_emprunte = Emprunteur_Jeu.objects.filter(jeu=jeu, disponible=True).exists()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'disponible' into field. Choices are: emprunteurs, emprunteurs_id, id, jeu, jeu_id
+25-Mar-24 22:27:36 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\models.py changed, reloading.
+25-Mar-24 22:28:28 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:28:39 - INFO - Jeu Pandemic prêté à André
+25-Mar-24 22:30:00 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:30:03 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:30:13 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à André
+25-Mar-24 22:30:13 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 22:30:13 - INFO - CD Third World Child prêté à André
+25-Mar-24 22:30:13 - INFO - Jeu Pandemic prêté à André
+25-Mar-24 22:33:05 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:33:05 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 22:33:16 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:33:21 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à André
+25-Mar-24 22:33:21 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 22:33:21 - INFO - CD Third World Child prêté à André
+25-Mar-24 22:33:21 - INFO - Jeu Pandemic prêté à André
+25-Mar-24 22:33:55 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:33:55 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 22:34:27 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à André
+25-Mar-24 22:34:27 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 22:34:27 - INFO - Jeu Pandemic prêté à André
+25-Mar-24 22:37:38 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 22:42:58 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:43:05 - INFO - Livre Harry Potter, tome 1 : Harry Potter à l'école des sorciers prêté à Martin
+25-Mar-24 22:43:05 - INFO - DVD Avatar : La voie de l'eau prêté à Martin
+25-Mar-24 22:43:05 - INFO - CD Legend prêté à Martin
+25-Mar-24 22:43:05 - INFO - Jeu Pandemic prêté à Martin
+25-Mar-24 22:43:06 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:43:16 - INFO - Jeu Pandemic prêté à André
+25-Mar-24 22:44:19 - INFO - C:\Users\Tealc972\Desktop\Devoir\Devoir 11 - Python\projet_mediatheque\mediatheque\mediatheque\views.py changed, reloading.
+25-Mar-24 22:44:48 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:44:56 - INFO - Livre Harry Potter, tome 1 : Harry Potter à l'école des sorciers prêté à Martin
+25-Mar-24 22:44:56 - INFO - DVD Avatar : La voie de l'eau prêté à Martin
+25-Mar-24 22:44:56 - INFO - CD Legend prêté à Martin
+25-Mar-24 22:44:56 - INFO - Jeu Pandemic prêté à Martin
+25-Mar-24 22:44:58 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:45:01 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:45:22 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 22:45:29 - INFO - Livre Harry Potter, tome 2 : Harry Potter et la chambre des secrets prêté à André
+25-Mar-24 22:45:29 - INFO - DVD Oppenheimer prêté à André
+25-Mar-24 22:45:29 - INFO - CD Third World Child prêté à André
+25-Mar-24 22:45:29 - INFO - Jeu Mr. Jack London prêté à André
+25-Mar-24 22:45:32 - INFO - Accès à la liste des emprunteurs
+25-Mar-24 22:45:35 - INFO - Accès à la liste des emprunteurs

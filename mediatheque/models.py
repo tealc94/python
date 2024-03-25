@@ -53,5 +53,6 @@ class JeuDePlateau(models.Model):
 		return self.name
 
 class Emprunteur_Jeu(models.Model):
+	disponible = models.BooleanField(null=True)
 	jeu = models.ForeignKey(JeuDePlateau, on_delete=models.CASCADE, default=None)
 	emprunteurs = models.ForeignKey(Emprunteur, on_delete=models.CASCADE,default=None)
