@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : dim. 24 mars 2024 à 17:48
+-- Généré le : lun. 25 mars 2024 à 21:55
 -- Version du serveur : 8.2.0
 -- Version de PHP : 8.2.13
 
@@ -262,7 +262,7 @@ CREATE TABLE IF NOT EXISTS `django_migrations` (
   `name` varchar(255) NOT NULL,
   `applied` datetime(6) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `django_migrations`
@@ -300,7 +300,8 @@ INSERT INTO `django_migrations` (`id`, `app`, `name`, `applied`) VALUES
 (29, 'mediatheque', '0011_alter_emprunteur_cd_disponible', '2024-03-13 19:37:52.834208'),
 (30, 'mediatheque', '0012_alter_livre_auteur_alter_livre_name', '2024-03-14 18:55:47.337183'),
 (31, 'mediatheque', '0013_alter_livre_auteur_alter_livre_name', '2024-03-14 18:58:06.555460'),
-(32, 'mediatheque', '0014_emprunteur_jeu', '2024-03-15 18:10:05.452039');
+(32, 'mediatheque', '0014_emprunteur_jeu', '2024-03-15 18:10:05.452039'),
+(33, 'mediatheque', '0015_emprunteur_jeu_disponible', '2024-03-25 21:28:11.253183');
 
 -- --------------------------------------------------------
 
@@ -409,16 +410,15 @@ CREATE TABLE IF NOT EXISTS `mediatheque_emprunteur_cd` (
   PRIMARY KEY (`id`),
   KEY `mediatheque_emprunteur_cd_cd_id_d38959c8` (`cd_id`),
   KEY `mediatheque_emprunteur_cd_emprunteurs_id_67bb738a` (`emprunteurs_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=140 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=177 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `mediatheque_emprunteur_cd`
 --
 
 INSERT INTO `mediatheque_emprunteur_cd` (`id`, `dateEmprunt`, `disponible`, `cd_id`, `emprunteurs_id`) VALUES
-(125, '2024-03-21', 1, 2, 1),
-(120, '2024-03-18', 1, 3, 5),
-(119, '2024-03-18', 1, 2, 2);
+(176, '2024-03-25', 1, 2, 2),
+(175, '2024-03-25', 1, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -436,16 +436,15 @@ CREATE TABLE IF NOT EXISTS `mediatheque_emprunteur_dvd` (
   PRIMARY KEY (`id`),
   KEY `mediatheque_emprunteur_dvd_dvd_id_f71c457d` (`dvd_id`),
   KEY `mediatheque_emprunteur_dvd_emprunteurs_id_0a368473` (`emprunteurs_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=165 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=204 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `mediatheque_emprunteur_dvd`
 --
 
 INSERT INTO `mediatheque_emprunteur_dvd` (`id`, `dateEmprunt`, `disponible`, `dvd_id`, `emprunteurs_id`) VALUES
-(147, '2024-03-21', 1, 1, 1),
-(142, '2024-03-18', 1, 3, 5),
-(141, '2024-03-18', 1, 2, 2);
+(203, '2024-03-25', 1, 2, 2),
+(202, '2024-03-25', 1, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -458,23 +457,19 @@ CREATE TABLE IF NOT EXISTS `mediatheque_emprunteur_jeu` (
   `id` bigint NOT NULL AUTO_INCREMENT,
   `emprunteurs_id` int NOT NULL,
   `jeu_id` bigint NOT NULL,
+  `disponible` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `mediatheque_emprunteur_jeu_emprunteurs_id_2927b728` (`emprunteurs_id`),
   KEY `mediatheque_emprunteur_jeu_jeu_id_a3367682` (`jeu_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=66 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=114 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `mediatheque_emprunteur_jeu`
 --
 
-INSERT INTO `mediatheque_emprunteur_jeu` (`id`, `emprunteurs_id`, `jeu_id`) VALUES
-(30, 5, 4),
-(29, 2, 2),
-(31, 5, 5),
-(28, 2, 1),
-(46, 1, 4),
-(45, 1, 3),
-(44, 1, 2);
+INSERT INTO `mediatheque_emprunteur_jeu` (`id`, `emprunteurs_id`, `jeu_id`, `disponible`) VALUES
+(113, 2, 2, 1),
+(111, 1, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -492,16 +487,15 @@ CREATE TABLE IF NOT EXISTS `mediatheque_emprunteur_livre` (
   PRIMARY KEY (`id`),
   KEY `mediatheque_emprunteur_livre_emprunteurs_id_ce01addf` (`emprunteurs_id`),
   KEY `mediatheque_emprunteur_livre_livre_id_ec556d2c` (`livre_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=273 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=288 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `mediatheque_emprunteur_livre`
 --
 
 INSERT INTO `mediatheque_emprunteur_livre` (`id`, `dateEmprunt`, `disponible`, `emprunteurs_id`, `livre_id`) VALUES
-(248, '2024-03-21', 1, 1, 3),
-(243, '2024-03-12', 1, 5, 11),
-(242, '2024-02-28', 1, 2, 5);
+(287, '2024-03-25', 1, 2, 2),
+(286, '2024-03-25', 1, 1, 1);
 
 -- --------------------------------------------------------
 
